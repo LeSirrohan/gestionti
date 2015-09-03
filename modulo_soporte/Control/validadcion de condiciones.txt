@@ -1,0 +1,78 @@
+$nombre=$_POST['nombre'];
+$fecha_inicial=$_POST['fecha'];
+$fecha_final=$_POST['fecha2'];
+$area=$_POST['area'];
+$tipo=$_POST['tipo'];
+
+if(isset($nombre) && !isset($fecha_final) && !isset($fecha_inicial) && !isset($area) && !isset($tipo))
+{
+    //Busqueda por Nombres
+}
+elseif(!isset($nombre) && isset($fecha_final) && isset($fecha_inicial) && !isset($area) && !isset($tipo))
+{    
+//Búsqueda por fechas
+
+}
+elseif(!isset($nombre) && !isset($fecha_final) && !isset($fecha_inicial) && isset($area) && !isset($tipo))
+{
+//Búsqueda por área
+}
+elseif(!isset($nombre) && !isset($fecha_final) && !isset($fecha_inicial) && !isset($area) && isset($tipo))
+{
+//Busqueda por Tipo Soporte
+}
+elseif(isset($nombre) && isset($fecha_final) && isset($fecha_inicial) && !isset($area) && !isset($tipo))
+{
+//Búsqueda Por nombre y Fecha
+}
+elseif(isset($nombre) && !isset($fecha_final) && !isset($fecha_inicial) && isset($area) && !isset($tipo))
+{
+//Búsqueda por nombre y área
+}
+elseif(isset($nombre) && !isset($fecha_final) && !isset($fecha_inicial) && !isset($area) && isset($tipo))
+{
+//Búsqueda por nombre y Tipo soporte
+}
+elseif(isset($nombre) && isset($fecha_final) && isset($fecha_inicial) && isset($area) && !isset($tipo))
+{
+//Busqueda por nombre, fecha y area
+}
+elseif(isset($nombre) && isset($fecha_final) && isset($fecha_inicial) && !isset($area) && isset($tipo))
+{
+//Busqueda por nombre, fecha y Tipo Soporte
+}
+elseif(isset($nombre) && isset($fecha_final) && isset($fecha_inicial) && isset($area) && isset($tipo))
+{
+//Busqueda por nombre, fecha, area y Tipo soporte
+}
+elseif(isset($nombre) && !isset($fecha_final) && !isset($fecha_inicial) && isset($area) && isset($tipo))
+{
+//Busqueda por nombre, area y Tipo soporte
+}
+elseif(isset($nombre) && !isset($fecha_final) && !isset($fecha_inicial) && !isset($area) && isset($tipo))
+{
+//Búsqueda por nombre y Tipo Soporte
+}
+elseif(!isset($nombre) && isset($fecha_final) && isset($fecha_inicial) && isset($area) && !isset($tipo))
+{
+//Búsqueda por Fecha y área
+}
+elseif(isset($nombre) && !isset($fecha_final) && !isset($fecha_inicial) && isset($area) && isset($tipo))
+{
+//Búsqueda por Fecha y Tipo soporte
+}
+elseif(!isset($nombre) && isset($fecha_final) && isset($fecha_inicial) && isset($area) && isset($tipo))
+{
+//Busqueda por Fecha, área y Tipo soporte
+}
+
+elseif(!isset($nombre) && !isset($fecha_final) && !isset($fecha_inicial) && isset($area) && isset($tipo))
+{
+//Búsqueda por área y tipo soporte
+}
+
+elseif(!isset($nombre) && !isset($fecha_final) && !isset($fecha_inicial) && !isset($area) && !isset($tipo))
+{
+    ?> <script> alert("Disculpe, Escoja una opción para la búsqueda por favor verifique"); </script> <?
+    echo '<script languaje="Javascript">location.href="index.php"</script>'; //MENSAJE DE COMPROBACION;
+}

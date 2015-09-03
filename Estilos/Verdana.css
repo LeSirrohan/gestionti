@@ -1,0 +1,40 @@
+.big {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.bodystyle {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #000;
+}
+.subbig {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+.subbig2 {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.tip {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.caja {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 12px;
+}
+.Titulos {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+.Texto1 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
